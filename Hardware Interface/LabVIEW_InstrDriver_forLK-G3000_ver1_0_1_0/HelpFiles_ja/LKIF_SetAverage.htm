@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_SetAverage</title>
+</head>
+
+<body>
+
+<p align="right"><font face="MS UI Gothic">平均回数設定 (LKIF_SetAverage)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_SetAverage(IN int OutNo,IN LKIF_AVERAGE Average);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">平均回数を設定します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">OutNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">設定するOUT番号。０（OUT1)か１（OUT2)を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">Average </font> </td>
+    <td width="76%"><font face="MS UI Gothic">平均回数。以下の値を指定します。</font><p>
+    <font face="MS UI Gothic">typedef enum {<br>
+    　　LKIF_AVERAGE_1, // 1回<br>
+    　　LKIF_AVERAGE_4, //<br>
+    　　LKIF_AVERAGE_16, // <br>
+    　　LKIF_AVERAGE_64, //<br>
+    　　LKIF_AVERAGE_256, //<br>
+    　　LKIF_AVERAGE_1024, //<br>
+    　　LKIF_AVERAGE_4096, //<br>
+    　　LKIF_AVERAGE_16384, //<br>
+    　　LKIF_AVERAGE_65536, //<br>
+    　　LKIF_AVERAGE_262144, // 262144回<br>
+    } LKIF_AVERAGE;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

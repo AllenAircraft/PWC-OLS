@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_SetCalcMode</title>
+</head>
+
+<body>
+
+<p align="right"><font face="MS UI Gothic">計測モード設定 (LKIF_SetCalcMode)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_SetCalcMode(IN int OutNo,IN 
+    LKIF_CALCMODE CalcMode);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">計測モードを設定します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">OutNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">設定するOUT番号。０（OUT1）か１（OUT2）を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">CalcMode </font> </td>
+    <td width="76%"><font face="MS UI Gothic">測定モード。以下の値を指定します。</font><p>
+    <font face="MS UI Gothic">typedef enum {<br>
+    　　LKIF_CALCMODE_NORMAL, // 標準<br>
+    　　LKIF_CALCMODE_PEAKHOLD, //ピークホールド <br>
+    　　LKIF_CALCMODE_BOTTOMHOLD, // ボトムホールド<br>
+    　　LKIF_CALCMODE_PEAKTOPEAKHOLD, // ピークtoピークホールド<br>
+    　　LKIF_CALCMODE_SAMPLEHOLD, // サンプルホールド<br>
+    　　LKIF_CALCMODE_AVERAGEHOLD, // アベレージホールド<br>
+    } LKIF_CALCMODE;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

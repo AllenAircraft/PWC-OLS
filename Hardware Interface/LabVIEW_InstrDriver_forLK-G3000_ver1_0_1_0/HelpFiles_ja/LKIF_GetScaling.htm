@@ -1,0 +1,89 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_GetScaling</title>
+</head>
+
+<body>
+
+<p align="right"><font face="MS UI Gothic">スケーリング取得 (LKIF_GetScaling)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_GetScaling(IN int OutNo,IN int HeadNo,OUT int 
+*InputValue1,OUT int *OutputValue1,OUT int *InputValue2,OUT int *OutputValue2);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">スケーリングを取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="6"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">OutNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">設定するOUT番号。０（OUT1）、１（OUT2）を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">HeadNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">ヘッド番号０（HEAD-A）か１（HEAD-B)を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">InputValue1 </font> </td>
+    <td width="76%"><font face="MS UI Gothic">入力値１を取得します。-999999～99999の値を取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">OutputValue1 </font> </td>
+    <td width="76%"><font face="MS UI Gothic">表示値１を取得します。-999999～99999の値を取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">InputValue2 </font> </td>
+    <td width="76%"><font face="MS UI Gothic">入力値２を取得します。-999999～99999の値を取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">OutputValue2 </font> </td>
+    <td width="76%"><font face="MS UI Gothic">表示値２を取得します。-999999～99999の値を取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">備考</font></td>
+    <td width="91%" colspan="2"><font color="#FF0000" face="MS UI Gothic">本体に設定される値は、本体側の最小表示単位によって異なります。<br>
+    例 ： 公差を９９９９９９とした時、本体に設定される値を示します。<br>
+    　最小表示単位＝０．０１ｍｍ ： ９９９９．９９ｍｍ<br>
+    　最小表示単位＝０．００１ｍｍ ： ９９９．９９９ｍｍ<br>
+    　最小表示単位＝０．０００１ｍｍ ： ９９．９９９９ｍｍ<br>
+    　最小表示単位＝０．００００１ｍｍ ： ９．９９９９９ｍｍ<br>
+    　最小表示単位＝０．１μｍ ： ９９９９９．９μｍ<br>
+    　最小表示単位＝０．０１μｍ ： ９９９９．９９μｍ</font></td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

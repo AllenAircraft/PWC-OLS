@@ -1,0 +1,64 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_SetMeasureMode</title>
+</head>
+
+<body>
+
+<p align="right"><font face="Times New Roman">Set Measurement Mode (LKIF_SetMeasureMode)</font></p>
+<hr>
+
+<p> </p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_SetMeasureMode(IN int HeadNo,IN LKIF_MEASUREMODE MeasureMode);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Sets the measurement mode.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">HeadNo </font> </td>
+    <td width="76%"><font face="Times New Roman">Sets the specified head number. Sets 0 (HEAD-A) or 1 (HEAD-B).</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">MeasureMode </font> </td>
+    <td width="76%"><font face="Times New Roman">Measurement mode. The following values can be set.</font><p>
+    <font face="Times New Roman">typedef enum {<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_MEASUREMODE_NORMAL, // normal<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_MEASUREMODE_HALF_T, // translucent object<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_MEASUREMDOE_TRAN_1, // transparent object<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_MEASUREMODE_TRAN_2, // transparent object 2<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_MEASUREMODE_MRS, // multireflective object<br> } LKIF_MEASUREMODE;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>

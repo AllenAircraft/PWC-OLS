@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_GetCalcData</title>
+</head>
+
+<body>
+
+<p align="right"><font face="Times New Roman">Measurement Value Output (LKIF_GetCalcData)</font></p>
+<hr>
+
+<p> </p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_GetCalcData(OUT LKIF_FLOATVALUE *CalcData1,OUT LKIF_FLOATVALUE *CalcData2);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Returns the measurement value.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">CalcData1 </font> </td>
+    <td width="76%"><font face="Times New Roman">Measurement value for OUT1. Values are specified for the following structures.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">CalcData2 </font> </td>
+    <td width="76%"><font face="Times New Roman">Measurement value for OUT2. Values are specified for the following structures.</font><p>
+    <font face="Times New Roman">typedef enum {<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_FLOATRESULT_VALID, // valid data<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_FLOATRESULT_RANGEOVER_N, // over range at negative (-) side<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_FLOATRESULT_WAITING, // comparator result<br> } LKIF_FLOATRESULT;</font></p>
+<p><font face="Times New Roman"><br> typedef struct {<br> LKIF_FLOATRESULT FloatResult; // valid or invalid data.<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;float Value; // measurement value during LKIF_FLOATRESULT_VALID. <br>&nbsp;&nbsp;&nbsp;&nbsp;Any other times will return an invalid value.<br> } LKIF_FLOATVALUE;</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Reference</font></td>
+    <td width="91%" colspan="2"><font color="#FF0000" face="Times New Roman">The specified value of the LKIF_FLOATVALUE structure varies depending on the minimum display unit of the equipment.<br> Ex: When measurement value is set as 999999, the specified value for the equipment is set as follows.<br> 
+&nbsp;&nbsp;Minimum display unit=0.01mm:  9999.99mm<br>
+&nbsp;&nbsp;Minimum display unit=0.001mm:  999.999mm<br>
+&nbsp;&nbsp;Minimum display unit=0.0001mm:  99.9999mm<br>
+&nbsp;&nbsp;Minimum display unit=0.00001mm:  9.99999mm<br>
+&nbsp;&nbsp;Minimum display unit=0.1&micro;m:  99999.9&micro;m<br>
+&nbsp;&nbsp;Minimum display unit=0.1&micro;m:  9999.99&micro;m</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>

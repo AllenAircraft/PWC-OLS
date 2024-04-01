@@ -1,0 +1,101 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>ApiAbout</title>
+</head>
+
+<body>
+
+<p align="right">はじめにお読みください</p>
+
+<hr>
+
+<p>動作環境を以下に示します。</p>
+
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1">
+  <tr>
+    <td width="18%">CPU</td>
+    <td width="82%">Pentium 400MHz以上</td>
+  </tr>
+  <tr>
+    <td width="18%">メモリ</td>
+    <td width="82%">６４Mバイト以上</td>
+  </tr>
+  <tr>
+    <td width="18%">HD空き容量</td>
+    <td width="82%">２Mバイト以上</td>
+  </tr>
+  <tr>
+    <td width="18%">I/F</td>
+    <td width="82%">USB １．１ もしくはUSB１．１互換</td>
+  </tr>
+  <tr>
+    <td width="18%">OS</td>
+    <td width="82%">Windows98、Windows98SE、WindowsME、Windows2000、WindowsXP、WindowsVista、<br>Windows 7 Home Premium/Professional/Ultimate</td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+<p>ファイル構成を以下に示します。</p>
+
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1">
+  <tr>
+    <td width="18%">LkIF.dll</td>
+    <td width="82%">DLL本体です。</td>
+  </tr>
+  <tr>
+    <td width="18%">KeyUsbDrv.dll</td>
+    <td width="82%">USBでの通信に必要となるDLLです。</td>
+  </tr>
+  <tr>
+    <td width="18%">LkIF.h</td>
+    <td width="82%">APIが定義されているヘッダファイルです。C言語でアプリケーションを作成する場合はこちらを使用します。</td>
+  </tr>
+  <tr>
+    <td width="18%">LkIF.BAS</td>
+    <td width="82%">APIが定義されているヘッダファイルです。VisualBasicでアプリケーションを作成する場合はこちらを使用します。</td>
+  </tr>
+  <tr>
+    <td width="18%">Samples/VB</td>
+    <td width="82%">サンプルソースのフォルダです。VisualBasicで作成したサンプルプログラムです。</td>
+  </tr>
+  <tr>
+    <td width="18%">HelpFiles</td>
+    <td width="82%">このファイルです。</td>
+  </tr>
+</table>
+<p>本ＤＬＬはＶｉｓｕａｌＣ＋＋６．０および、ＶｉｓｕａｌＢａｓｉｃ６．０で動作を確認しています。</p>
+
+<p>USBドライバは、LK-Navigatorのものをインストールしてください。</p>
+
+<hr>
+
+<p>API構成を以下に示します。</p>
+<p>本DLLは大きく分けて４つのカテゴリに分類されています。</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1">
+  <tr>
+    <td width="18%">モード変更コマンド</td>
+    <td width="82%">「通常モード」、「通信モード」の状態を切り替えるAPIです。</td>
+  </tr>
+  <tr>
+    <td width="18%">測定制御コマンド</td>
+    <td width="82%">測定を制御するためのAPIです。本体が「通常モード」の時にデータのやり取りが行えます。</td>
+  </tr>
+  <tr>
+    <td width="18%">設定内容変更コマンド</td>
+    <td width="82%">設定内容を変更するためのAPIです。本体が「通信モード」の時にデータのやり取りが行えます。</td>
+  </tr>
+  <tr>
+    <td width="18%">設定内容確認コマンド</td>
+    <td width="82%">設定内容を取得するためのAPIです。本体が「通信モード」の時にデータのやり取りが行えます。</td>
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_AbleStart.htm</title>
+<base target="_self">
+</head>
+
+<body link="#000000" vlink="#808080">
+
+<p align="right"><font face="MS UI Gothic">ABLEチューニング開始 (LKIF_AbleStart)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_AbleStart(IN int HeadNo);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">ABLEチューニングを開始します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">HeadNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">ヘッド番号を指定します。０（HEAD-A）か１（HEAD-B)を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">注意</font></td>
+    <td width="91%" colspan="2">この関数は、本体の状態を通信モードにしたまま終了します。この関数をコールした後は、必ず<a href="LKIF_AbleStop.htm">ABLEチューニング終了 
+    API</a>、もしくは、<a href="LKIF_AbleCancel.htm">ABLEチューニング中止 API</a>をコールして通常モードに戻
+    してください。</td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

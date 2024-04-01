@@ -1,0 +1,80 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_SetCalcMethod</title>
+</head>
+
+<body>
+
+<p align="right"><font face="Times New Roman">Set Calculation Method (LKIF_SetCalcMethod)</font></p>
+<hr>
+
+<p> </p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_SetCalcMethod(IN int OutNo,IN LKIF_CALCMETHOD CalcMethod,LKIF_CALCTARGET CalcTarget);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Sets the calculation method.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="3"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">OutNo </font> </td>
+    <td width="76%"><font face="Times New Roman">The OUT number to be set. Sets 0 (OUT1) or 1 (OUT2).</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">CalcMethod</font></td>
+    <td width="76%"><font face="Times New Roman">Calculation method. The following values can be set.</font><p>
+    <font face="Times New Roman">typedef enum {<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCMETHOD_HEADA, // head A<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCMETHOD_HEADB, // head B<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCMETHOD_HEAD_HEADA_PLUS_HEADB, // head A + head B<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCMETHOD_HEAD_HEADA_MINUS_HEADB, // head A - head B<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCMETHOD_HEAD_HEADA_TRANSPARENT, // head A transparent object<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCMETHOD_HEAD_HEADB_TRANSPARENT, // head B transparent object<br> } LKIF_CALCMETHOD;</font></td>
+  </tr>
+  <tr>
+    <td width="33%"><font face="Times New Roman">CalcTarget</font></td>
+    <td width="33%"><font face="Times New Roman">Measurement target. The following values can be set.<p>typedef enum {<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_1, // peak 1<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_2, // peak 2<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_3, // peak 3<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_4, // peak 4<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_1_2, // peak 1 - peak 2<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_1_3, // peak 1 - peak 3<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_1_4, // peak 1 - peak 4<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_2_3, // peak 2 - peak 3<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_2_4, // peak 2 - peak 4<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_CALCTARGET_PEAK_3_4, // peak 3 - peak 4<br> } LKIF_CALCTARGET;<br></font>
+ </td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>

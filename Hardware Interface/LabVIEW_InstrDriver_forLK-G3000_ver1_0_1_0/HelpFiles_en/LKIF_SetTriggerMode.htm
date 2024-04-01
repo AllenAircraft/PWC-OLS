@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_SetTriggerMode</title>
+</head>
+
+<body>
+
+<p align="right"><font face="Times New Roman">Set Trigger Mode (LKIF_SetTriggerMode)</font></p>
+<hr>
+<p> </p>
+<table border="2" cellspacing="1" width="100%" id="AutoNumber2" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_SetTriggerMode(IN int OutNo,IN LKIF_TRIGGERMODE TriggerMode);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Sets the trigger mode.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">OutNo</font></td>
+    <td width="76%"><font face="Times New Roman">The OUT number to be set. Sets 0 (OUT1) or 1 (OUT2).</font></td>
+  </tr>
+  <tr>
+    <td width="9%"> </td>
+    <td width="15%"><font face="Times New Roman">TriggerMode </font> </td>
+    <td width="76%"><font face="Times New Roman">Trigger mode. The following values can be set.</font><p>
+    <font face="Times New Roman">typedef enum {<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_TRIGGERMODE_EXT1, // external trigger 1<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_TRIGGERMODE_EXT2, // external trigger 2<br> } LKIF_TRIGGERMODE;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>

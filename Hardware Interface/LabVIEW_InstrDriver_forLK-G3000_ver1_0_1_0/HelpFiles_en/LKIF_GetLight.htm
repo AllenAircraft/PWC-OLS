@@ -1,0 +1,69 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_SetZero</title>
+</head>
+
+<body>
+
+<p align="right"><font face="Times New Roman">Receive Light Waveform (LKIF_GetLight)</font></p>
+<hr>
+<p align="left"> </p>
+<table border="2" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_GetLight(IN int HeadNo,IN int PeekNo,OUT int *MeasurePosition,OUT int *NumReaded,OUT BYTE *Value);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description    </font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Returns the light waveform..</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="5"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">HeadNo </font> </td>
+    <td width="76%"><font face="Times New Roman">Returned Head number. Sets 0 (HEAD-A) or 1 (HEAD-B).</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">PeekNo </font> </td>
+    <td width="76%"><font face="Times New Roman">Sets the peak position of the received waveform when measurement mode is set to &quot;transparent object 2&quot;. Sets the values 0 to 3.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">MeasurePosition</font></td>
+    <td width="76%"><font face="Times New Roman">Returns the measurement position. Four sequences can be set. The range of the received data is 0 to 1024, where 0 represents invalid data and all other values represent valid measurement position data.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">NumReaded</font></td>
+    <td width="76%"><font face="Times New Roman">Returns the amount of read valid data.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">Value</font></td>
+    <td width="76%"><font face="Times New Roman">Returns the amount of read data.</font><font face="Times New Roman"> 1024 sequences can be set.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>

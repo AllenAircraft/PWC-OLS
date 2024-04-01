@@ -1,0 +1,79 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_SetScaling</title>
+</head>
+
+<body>
+
+<p align="right"><font face="Times New Roman">Set Scaling (LKIF_SetScaling)</font></p>
+<hr>
+
+<p> </p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_SetScaling(IN int OutNo,IN int HeadNo,IN int InputValue1,IN int OutputValue1,IN int InputValue2,IN int OutputValue2);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Sets the scaling.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="4"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">OutNo </font> </td>
+    <td width="76%"><font face="Times New Roman">The OUT number to be set. Sets 0 (OUT1) or 1 (OUT2).</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">HeadNo </font> </td>
+    <td width="76%"><font face="Times New Roman">The head number to be set. Sets 0 (HEAD-A) or 1 (HEAD-B).</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">InputValue1, OutputValue1 </font> </td>
+    <td width="76%"><font face="Times New Roman">Sets the value for input value to display value. Sets a value from -999999 to 999999.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">InputValue2, OutputValue2 </font> </td>
+    <td width="76%"><font face="Times New Roman">Sets the value for input value to display value. Sets a value from -999999 to 999999.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Reference</font></td>
+    <td width="91%" colspan="2"><font color="#FF0000"><font face="Times New Roman">The parameters input value and output value can be set in the following range.</font><font face="Times New Roman"><br> <br> span = (display value 1 - display value 2) / (input value 1 - input value 2)<br> -9.999 &lt;= span &lt;= 9.999<br></font><p><font color="#FF0000" face="Times New Roman">The specified values vary depending on the minimum display unit of the equipment.<br> Ex: When the scaling is set as 999999, the specified value for the equipment is set as follows.<br> 
+&nbsp;&nbsp;Minimum display unit=0.01mm:  9999.99mm<br>
+&nbsp;&nbsp;Minimum display unit=0.001mm:  999.999mm<br>
+&nbsp;&nbsp;Minimum display unit=0.0001mm:  99.9999mm<br>
+&nbsp;&nbsp;Minimum display unit=0.00001mm:  9.99999mm<br>
+&nbsp;&nbsp;Minimum display unit=0.1&micro;m:  99999.9&micro;m<br>
+&nbsp;&nbsp;Minimum display unit=0.1&micro;m:  9999.99&micro;m</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>

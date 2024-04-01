@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_DataStorageGetStatus</title>
+</head>
+
+<body>
+
+<p align="right"><font face="MS UI Gothic">データストレージ蓄積状態出力 (LKIF_DataStorageGetStatus)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_DataStorageGetStatus(IN int OutNo,OUT BOOL *IsStorage,OUT 
+int *NumStorageData);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">データストレージの蓄積状態を取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="3"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">OutNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">取得するOUT番号。０（OUT1)か１（OUT2)を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">IsStorage </font> </td>
+    <td width="76%"><font face="MS UI Gothic">蓄積中かどうかを取得します。TRUE ： 蓄積中、FALSE ： 停止中</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">NumStorageData </font> </td>
+    <td width="76%"><font face="MS UI Gothic">蓄積されているデータの件数を取得します。０から６５５３６の値が返ります。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_SetDisplayUnit</title>
+</head>
+
+<body>
+
+<p align="right"><font face="MS UI Gothic">最小表示単位設定 (LKIF_SetDisplayUnit)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_SetDisplayUnit(IN int OutNo,IN LKIF_DISPLAYUNIT 
+DisplayUnit);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2">
+<p><font face="MS UI Gothic">最小表示単位を設定します。</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">OutNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">設定するOUT番号。０（OUT1）、１（OUT2）を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">DisplayUnit </font> </td>
+    <td width="76%"><font face="MS UI Gothic">最小表示単位。以下の値を指定します。</font><p>
+    <font face="MS UI Gothic">typedef enum {<br>
+    　　LKIF_DISPLAYUNIT_0000_01MM, // 0.01mm<br>
+    　　LKIF_DISPLAYUNIT_000_001MM, // 0.001mm<br>
+    　　LKIF_DISPLAYUNIT_00_0001MM, // 0.0001mm<br>
+    　　LKIF_DISPLAYUNIT_0_00001MM, // 0.00001mm<br>
+    　　LKIF_DISPLAYUNIT_0000_01UM, // 0.01μm<br>
+    　　LKIF_DISPLAYUNIT_000_001UM, // 0.001μm<br>
+    } LKIF_DISPLAYUNIT;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

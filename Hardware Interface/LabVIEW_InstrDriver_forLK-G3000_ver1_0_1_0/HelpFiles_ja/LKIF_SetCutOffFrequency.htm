@@ -1,0 +1,71 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_SetFilterLowpassHighpass</title>
+<base target="_self">
+</head>
+
+<body link="#000000" vlink="#C0C0C0">
+
+<p align="right"><font face="MS UI Gothic">カットオフ周波数設定 (LKIF_SetCutOffFrequency)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_SetCutOffFrequency(IN 
+    int OutNo,IN LKIF_CUTOFFFREQUENCY CutOffFrequency);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">フィルタ種別がローパス／ハイパス設定時のカットオフ周波数を設定します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">OutNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">設定するOUT番号。０（OUT1）、１（OUT2）を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%">CutOffFrequency</td>
+    <td width="76%"><font face="MS UI Gothic">カットオフ周波数を指定します。以下の値を指定します。</font><p>
+    <font face="MS UI Gothic">typedef enum {<br>
+    　　LKIF_CUTOFFFREQUENCY_1000, // １０００Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_300, // ３００Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_100, // １００Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_30, // ３０Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_10, // １０Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_3, // ３Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_1, // １Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_0_3, // ０．３Ｈｚ<br>
+    　　LKIF_CUTOFFFREQUENCY_0_1, // ０．１Ｈｚ<br>
+    } LKIF_CUTOFFFREQUENCY;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+  </table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

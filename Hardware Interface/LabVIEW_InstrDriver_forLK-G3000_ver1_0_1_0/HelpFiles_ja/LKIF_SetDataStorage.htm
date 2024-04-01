@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_SetDataStorage</title>
+</head>
+
+<body>
+
+<p align="right"><font face="MS UI Gothic">データストレージ設定 (LKIF_SetDataStorage)</font></p>
+<hr>
+
+<p>　</p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI LKIF_SetDataStorage(IN 
+    LKIF_TARGETOUT TargetOut,,IN int NumStorage,IN LKIF_STORAGECYCLE 
+    StorageCycle);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">データストレージの対象OUT、蓄積点数、蓄積周期を設定します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="3"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">TargetOut </font> </td>
+    <td width="76%"><font face="MS UI Gothic">対象OUT。以下の値を指定します。</font><p>
+    <font face="MS UI Gothic">typedef enum {<br>
+    　　LKIF_TARGETOUT_NONE, // 対象OUTなし<br>
+    　　LKIF_TARGETOUT_OUT1, // OUT１<br>
+    　　LKIF_TARGETOUT_OUT2, // OUT２<br>
+    　　LKIF_TARGETOUT_BOTH, // OUT1とOUT2<br>
+    } LKIF_TARGETOUT;</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">NumStorage </font> </td>
+    <td width="76%"><font face="MS UI Gothic">蓄積点数を指定します。１～６５５３６の値を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">StorageCycle </font> </td>
+    <td width="76%"><font face="MS UI Gothic">蓄積周期。以下の値を指定します。</font><p>
+    <font face="MS UI Gothic">typedef enum {<br>
+    　　LKIF_STORAGECYCLE_1, // サンプリング周期×１<br>
+    　　LKIF_STORAGECYCLE_2, //サンプリング周期×２ <br>
+    　　LKIF_STORAGECYCLE_5, // サンプリング周期×５<br>
+    　　LKIF_STORAGECYCLE_10, // サンプリング周期×１０<br>
+    　　LKIF_STORAGECYCLE_20, // サンプリング周期×２０<br>
+    　　LKIF_STORAGECYCLE_50, // サンプリング周期×５０<br>
+    　　LKIF_STORAGECYCLE_100, // サンプリング周期×１００<br>
+    　　LKIF_STORAGECYCLE_200, // サンプリング周期×２００<br>
+    　　LKIF_STORAGECYCLE_500, // サンプリング周期×５００<br>
+    　　LKIF_STORAGECYCLE_1000, // サンプリング周期×１０００<br>
+    } LKIF_STORAGECYCLE;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

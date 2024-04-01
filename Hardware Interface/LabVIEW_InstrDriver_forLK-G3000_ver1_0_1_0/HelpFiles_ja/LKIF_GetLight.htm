@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>LKIF_SetZero</title>
+</head>
+
+<body>
+
+<p align="right"><font face="MS UI Gothic">受光波形取得 (LKIF_GetLight)</font></p>
+<hr>
+<p align="left">　</p>
+<table border="2" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="MS UI Gothic">BOOL WINAPI 
+    LKIF_GetLight(IN int HeadNo,IN int PeekNo,OUT int *MeasurePosition,OUT int *NumReaded,OUT 
+    BYTE *Value);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="MS UI Gothic">説明　　　　</font></td>
+    <td width="91%" colspan="2"><font face="MS UI Gothic">受光波形を取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="5"><font face="MS UI Gothic">パラメータ</font></td>
+    <td width="15%"><font face="MS UI Gothic">HeadNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">
+    取得するHead番号。０（HEAD-A）、１（HEAD-B）を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">PeekNo </font> </td>
+    <td width="76%"><font face="MS UI Gothic">測定モードが「透明体２」の時、波形を取得するピーク位置を指定します。０～３の値を指定します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">MeasurePosition</font></td>
+    <td width="76%"><font face="MS UI Gothic">測定位置を取得します。4個の配列を指定します。 
+    受信データは０～1024までの範囲の値で、０が無効データ、０以外が有効な測定位置のデータです。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">NumReaded</font></td>
+    <td width="76%"><font face="MS UI Gothic">読み出した有効データ数を取得します。</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">Value</font></td>
+    <td width="76%"><font face="MS UI Gothic">読み出したデータを取得します。</font>1024<font face="MS UI Gothic">個</font>の配列を指定します。</td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3">　</td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="MS UI Gothic">戻り値</font></td>
+    <td width="15%"><font face="MS UI Gothic">TRUE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">正常終了</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="MS UI Gothic">FALSE </font> </td>
+    <td width="76%"><font face="MS UI Gothic">異常終了</font></td>
+  </tr>
+</table>
+<p>　</p>
+
+<hr>
+
+</body>
+
+</html>

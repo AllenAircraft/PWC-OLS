@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_SetDataStorage</title>
+</head>
+
+<body>
+
+<p align="right"><font face="Times New Roman">Set Data Storage (LKIF_SetDataStorage)</font></p>
+<hr>
+
+<p> </p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_SetDataStorage(IN LKIF_TARGETOUT TargetOut,,IN int NumStorage,IN LKIF_STORAGECYCLE StorageCycle);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Sets the target OUT, number of accumulations, and accumulation cycle of the data storage settings.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="3"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">TargetOut </font> </td>
+    <td width="76%"><font face="Times New Roman">Target OUT. The following values can be set.</font><p>
+    <font face="Times New Roman">typedef enum {<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_TARGETOUT_NONE, // no target OUT<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_TARGETOUT_OUT1, // OUT&sbquo;P<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_TARGETOUT_OUT2, // OUT&sbquo;Q<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_TARGETOUT_BOTH, // OUT1 and OUT2<br> } LKIF_TARGETOUT;</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">NumStorage </font> </td>
+    <td width="76%"><font face="Times New Roman">Sets the number of accumulations. Sets a value from 1 to 65536.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">StorageCycle </font> </td>
+    <td width="76%"><font face="Times New Roman">Accumulation cycle. The following values can be set.</font><p>
+    <font face="Times New Roman">typedef enum {<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_1, // sampling rate x 1<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_2, // sampling rate x 2<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_5, // sampling rate x 5<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_10, // sampling rate x 10<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_20, // sampling rate x 20<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_50, // sampling rate x 50<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_100, // sampling rate x 100<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_200, // sampling rate x 200<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_500, // sampling rate x 500<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;LKIF_STORAGECYCLE_1000, // sampling rate x 1000<br> } LKIF_STORAGECYCLE;</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>LKIF_DataStorageGetData</title>
+</head>
+
+<body link="#000000" vlink="#C0C0C0">
+
+<p align="right"><font face="Times New Roman">Outputting the Data Storage(LKIF_DataStorageGetData)</font></p>
+<hr>
+
+<p> </p>
+<table border="1" cellspacing="1" width="100%" id="AutoNumber1" bordercolorlight="#C0C0C0" bordercolordark="#808080">
+  <tr>
+    <td width="100%" colspan="3"><font face="Times New Roman">BOOL WINAPI LKIF_DataStorageGetData(IN int OutNo,IN int NumOutBuffer,OUT LKIF_FLOATVALUE *OutBuffer,OUT int *NumReceived);</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Description</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Returns the data storage accumulation.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="4"><font face="Times New Roman">Parameter</font></td>
+    <td width="15%"><font face="Times New Roman">OutNo </font> </td>
+    <td width="76%"><font face="Times New Roman">The returned OUT number. Sets 0 (OUT1) or 1 (OUT2).</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">NumOutBuffer </font> </td>
+    <td width="76%"><font face="Times New Roman">Sets the amount of data to be returned. Sets from 1 to 65536.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">OutBuffer </font> </td>
+    <td width="76%"><font face="Times New Roman">Returns the accumulation data.</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">NumReceived </font> </td>
+    <td width="76%"><font face="Times New Roman">Returns the amount of received accumulation.</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%" rowspan="2"><font face="Times New Roman">Returned Value</font></td>
+    <td width="15%"><font face="Times New Roman">TRUE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes without errors</font></td>
+  </tr>
+  <tr>
+    <td width="15%"><font face="Times New Roman">FALSE </font> </td>
+    <td width="76%"><font face="Times New Roman">Completes with errors</font></td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3"> </td>
+  </tr>
+  <tr>
+    <td width="9%"><font face="Times New Roman">Reference</font></td>
+    <td width="91%" colspan="2"><font face="Times New Roman">Note any returned errors during data storage accumulation.<br> Refer to <a href="LKIF_GetCalcData.htm">Measurement Value Output</a> for more about LKIF_FLOATVALUE.</font></td>
+  </tr>
+</table>
+<p> </p>
+
+<hr>
+
+</body>
+
+</html>
