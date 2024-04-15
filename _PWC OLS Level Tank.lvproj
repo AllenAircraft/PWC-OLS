@@ -12,8 +12,21 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_OLS_Main.vi" Type="VI" URL="../_OLS_Main.vi"/>
+		<Item Name="Calibrate DataQ.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Calibrate DataQ.vi"/>
+		<Item Name="CTL_Calc_Level.vi" Type="VI" URL="../Control Algorithm/CTL_Calc_Level.vi"/>
 		<Item Name="Global 1.vi" Type="VI" URL="../Control Definitions/Global 1.vi"/>
+		<Item Name="IO_DataQ Get Corrections.vi" Type="VI" URL="../Hardware Interface/IO_DataQ Get Corrections.vi"/>
+		<Item Name="IO_DataQ_Close.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Close.vi"/>
+		<Item Name="IO_DataQ_Init.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Init.vi"/>
+		<Item Name="IO_Level_Sensor.vi" Type="VI" URL="../Hardware Interface/IO_Level_Sensor.vi"/>
+		<Item Name="IO_PWM.vi" Type="VI" URL="../Hardware Interface/IO_PWM.vi"/>
+		<Item Name="rawcdc_protocol_2ch.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/rawcdc_protocol_2ch.vi"/>
+		<Item Name="UTIL_Round_100.vi" Type="VI" URL="../Utility/UTIL_Round_100.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Keyence LK-G3000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keyence LK-G3000/Keyence LK-G3000.lvlib"/>
+				<Item Name="LK-G3000 GetCalcData.vi" Type="VI" URL="/&lt;instrlib&gt;/Keyence LK-G3000/Examples/LK-G3000 GetCalcData.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -62,6 +75,7 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -110,6 +124,9 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
 				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -130,7 +147,6 @@
 			<Item Name="CTL_Set_Resistor Value.vi" Type="VI" URL="../Control Algorithm/CTL_Set_Resistor Value.vi"/>
 			<Item Name="CTL_Simulate Resistor.vi" Type="VI" URL="../Control Algorithm/CTL_Simulate Resistor.vi"/>
 			<Item Name="CTL_Spec LUT.vi" Type="VI" URL="../Control Algorithm/CTL_Spec LUT.vi"/>
-			<Item Name="DAQ.vi" Type="VI" URL="../_Archive/DAQ.vi"/>
 			<Item Name="Def Bench Status.ctl" Type="VI" URL="../Control Definitions/Def Bench Status.ctl"/>
 			<Item Name="Def BenchCfg.ctl" Type="VI" URL="../Control Definitions/Def BenchCfg.ctl"/>
 			<Item Name="Def FullCfg.ctl" Type="VI" URL="../Control Definitions/Def FullCfg.ctl"/>
@@ -141,6 +157,8 @@
 			<Item Name="INIT Parse Test Config.vi" Type="VI" URL="../Initialization/INIT Parse Test Config.vi"/>
 			<Item Name="INIT_Control Panel Refs.vi" Type="VI" URL="../Initialization/INIT_Control Panel Refs.vi"/>
 			<Item Name="INIT_Read Test Config File.vi" Type="VI" URL="../Initialization/INIT_Read Test Config File.vi"/>
+			<Item Name="IO_DataQ_Config.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Config.vi"/>
+			<Item Name="IO_Dataq_Read_Measurement.vi" Type="VI" URL="../Hardware Interface/IO_Dataq_Read_Measurement.vi"/>
 			<Item Name="IO_Set Status Color.vi" Type="VI" URL="../Hardware Interface/IO_Set Status Color.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -150,7 +168,6 @@
 			<Item Name="PRO_Check Resistor.vi" Type="VI" URL="../Process Data/PRO_Check Resistor.vi"/>
 			<Item Name="PRO_Check Values.vi" Type="VI" URL="../Process Data/PRO_Check Values.vi"/>
 			<Item Name="PRO_Detect Switch Point.vi" Type="VI" URL="../Process Data/PRO_Detect Switch Point.vi"/>
-			<Item Name="PWM.vi" Type="VI" URL="../_Archive/PWM.vi"/>
 			<Item Name="RPT_Convert Results.vi" Type="VI" URL="../Resport Generation/RPT_Convert Results.vi"/>
 			<Item Name="RPT_Convert Waveform.vi" Type="VI" URL="../Resport Generation/RPT_Convert Waveform.vi"/>
 			<Item Name="RPT_Report Generate.vi" Type="VI" URL="../Resport Generation/RPT_Report Generate.vi"/>

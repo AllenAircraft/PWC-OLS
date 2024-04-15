@@ -1,11 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="8608001">
+<Library LVVersion="24008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
 Keyence LK-G3000 series.</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">#'#!!1!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)N!!!*Q(C=\&gt;4.&lt;&gt;N!%-8RZS#(8.6")*8Q7F!,;G&amp;;U.6(N4!NK!7V-#WI"&lt;8!`,E=/U1-3$\%A!W9^%LCW^X:(T^-;7S`J*_;(GW\O^P=0]X\.#X@O_6Y\JCG6@`O\@@Y^4*G0@`F_*`ZI_TL`/HP`&amp;Z`N[KT8P__8X?X\`\P`K`&gt;`W"DT00$12_]35^$3CN;UI,G=8:4E2&gt;ZE2&gt;ZE2&gt;ZEC&gt;ZEC&gt;ZEC&gt;ZE!&gt;ZE!&gt;ZE!?ZS5VO=J/&lt;X/2D*R?ZS%8/63E7,R9KCB9&amp;CM&amp;16(Q5HM*4?!I0BSI]B;@Q&amp;*\#QR!6HM*4?!J0Y7';#E`B+4S&amp;J`"1;EBK\/2Y#A`FF8A34_**0)G(*:6Y%E#S7&amp;)Y+1*$37@S)`%EHM4$4S7?R*.Y%E`CI6O**`%EHM34?*ASLEI/T&lt;S4Y['-!E`A#4S"*`"17I%H]!3?Q".Y7%["*`!%C'$"I$A%":/#!=&amp;"Y!E]@#HQ"*\!%XA#$VXD$M7Y-L.GXMHR')`R')`R'!]F:$T'9TT'9TS5F@%9D`%9D`'QF)T(?)T(1-SC,#^4T%QUAURA00S.J]8D,O71?/T^L\E]K/I(50VAK2]9^9/APM(K'[?_)?I,L&lt;[![AOD0G(VC;C"[I86"&gt;5$&gt;?0T3LP1TL14\5A\U0;U,7UT4`X0!W_XG[\8KS[8C]\HMU[HEY\(IQ[(A`&lt;\P&lt;&lt;&lt;L4;&lt;T?P&lt;[D@\MDW^Z\XUT,C0;MN\[4/]'`6$U_IVTT8[![!P9Y9!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)N!!!*Q(C=\&gt;4.&lt;&gt;N!%-8RZS#(8.6")*8Q7F!,;G&amp;;U.6(N4!NK!7V-#WI"&lt;8!`,E=/U1-3$\%A!W9^%LCW^X:(T^-;7S`J*_;(GW\O^P=0]X\.#X@O_6Y\JCG6@`O\@@Y^4*G0@`F_*`ZI_TL`/HP`&amp;Z`N[KT8P__8X?X\`\P`K`&gt;`W"DT00$12_]35^$3CN;UI,G=8:4E2&gt;ZE2&gt;ZE2&gt;ZEC&gt;ZEC&gt;ZEC&gt;ZE!&gt;ZE!&gt;ZE!?ZS5VO=J/&lt;X/2D*R?ZS%8/63E7,R9KCB9&amp;CM&amp;16(Q5HM*4?!I0BSI]B;@Q&amp;*\#QR!6HM*4?!J0Y7';#E`B+4S&amp;J`"1;EBK\/2Y#A`FF8A34_**0)G(*:6Y%E#S7&amp;)Y+1*$37@S)`%EHM4$4S7?R*.Y%E`CI6O**`%EHM34?*ASLEI/T&lt;S4Y['-!E`A#4S"*`"17I%H]!3?Q".Y7%["*`!%C'$"I$A%":/#!=&amp;"Y!E]@#HQ"*\!%XA#$VXD$M7Y-L.GXMHR')`R')`R'!]F:$T'9TT'9TS5F@%9D`%9D`'QF)T(?)T(1-SC,#^4T%QUAURA00S.J]8D,O71?/T^L\E]K/I(50VAK2]9^9/APM(K'[?_)?I,L&lt;[![AOD0G(VC;C"[I86"&gt;5$&gt;?0T3LP1TL14\5A\U0;U,7UT4`X0!W_XG[\8KS[8C]\HMU[HEY\(IQ[(A`&lt;\P&lt;&lt;&lt;L4;&lt;T?P&lt;[D@\MDW^Z\XUT,C0;MN\[4/]'`6$U_IVTT8[![!P9Y9!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.1.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="vi" Type="Folder">
