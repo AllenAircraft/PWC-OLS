@@ -21,6 +21,7 @@
 		<Item Name="IO_Level_Sensor.vi" Type="VI" URL="../Hardware Interface/IO_Level_Sensor.vi"/>
 		<Item Name="IO_PWM.vi" Type="VI" URL="../Hardware Interface/IO_PWM.vi"/>
 		<Item Name="rawcdc_protocol_2ch.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/rawcdc_protocol_2ch.vi"/>
+		<Item Name="ULTI_EdgeDetector.vi" Type="VI" URL="../Utility/ULTI_EdgeDetector.vi"/>
 		<Item Name="UTIL_Round_100.vi" Type="VI" URL="../Utility/UTIL_Round_100.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
