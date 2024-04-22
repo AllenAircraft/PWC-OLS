@@ -15,19 +15,13 @@
 		<Item Name="Calibrate DataQ.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Calibrate DataQ.vi"/>
 		<Item Name="CTL_Calc_Level.vi" Type="VI" URL="../Control Algorithm/CTL_Calc_Level.vi"/>
 		<Item Name="Global 1.vi" Type="VI" URL="../Control Definitions/Global 1.vi"/>
-		<Item Name="IO_DataQ Get Corrections.vi" Type="VI" URL="../Hardware Interface/IO_DataQ Get Corrections.vi"/>
 		<Item Name="IO_DataQ_Close.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Close.vi"/>
 		<Item Name="IO_DataQ_Init.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Init.vi"/>
 		<Item Name="IO_Level_Sensor.vi" Type="VI" URL="../Hardware Interface/IO_Level_Sensor.vi"/>
-		<Item Name="IO_PWM.vi" Type="VI" URL="../Hardware Interface/IO_PWM.vi"/>
-		<Item Name="rawcdc_protocol_2ch.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/rawcdc_protocol_2ch.vi"/>
+		<Item Name="IO_PWM.vi" Type="VI" URL="../Hardware Interface/_Archive/IO_PWM.vi"/>
 		<Item Name="ULTI_EdgeDetector.vi" Type="VI" URL="../Utility/ULTI_EdgeDetector.vi"/>
 		<Item Name="UTIL_Round_100.vi" Type="VI" URL="../Utility/UTIL_Round_100.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Keyence LK-G3000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keyence LK-G3000/Keyence LK-G3000.lvlib"/>
-				<Item Name="LK-G3000 GetCalcData.vi" Type="VI" URL="/&lt;instrlib&gt;/Keyence LK-G3000/Examples/LK-G3000 GetCalcData.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -76,7 +70,6 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -141,7 +134,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CLT_Test State Mach.vi" Type="VI" URL="../Control Algorithm/CLT_Test State Mach.vi"/>
-			<Item Name="CTL Simulate Pump.vi" Type="VI" URL="../Control Algorithm/CTL Simulate Pump.vi"/>
+			<Item Name="CTL Pump_Controller.vi" Type="VI" URL="../Control Algorithm/CTL Pump_Controller.vi"/>
 			<Item Name="CTL_Level Spec.vi" Type="VI" URL="../Control Algorithm/CTL_Level Spec.vi"/>
 			<Item Name="CTL_Limit Check.vi" Type="VI" URL="../Control Algorithm/CTL_Limit Check.vi"/>
 			<Item Name="CTL_Pump Logic.vi" Type="VI" URL="../Control Algorithm/CTL_Pump Logic.vi"/>
@@ -150,6 +143,8 @@
 			<Item Name="CTL_Spec LUT.vi" Type="VI" URL="../Control Algorithm/CTL_Spec LUT.vi"/>
 			<Item Name="Def Bench Status.ctl" Type="VI" URL="../Control Definitions/Def Bench Status.ctl"/>
 			<Item Name="Def BenchCfg.ctl" Type="VI" URL="../Control Definitions/Def BenchCfg.ctl"/>
+			<Item Name="Def CalCoef.ctl" Type="VI" URL="../Control Definitions/Def CalCoef.ctl"/>
+			<Item Name="Def CalTable.ctl" Type="VI" URL="../Control Definitions/Def CalTable.ctl"/>
 			<Item Name="Def FullCfg.ctl" Type="VI" URL="../Control Definitions/Def FullCfg.ctl"/>
 			<Item Name="Def PumpCtlRefs.ctl" Type="VI" URL="../Control Definitions/Def PumpCtlRefs.ctl"/>
 			<Item Name="Def Results2.ctl" Type="VI" URL="../Control Definitions/Def Results2.ctl"/>
@@ -158,12 +153,17 @@
 			<Item Name="INIT Parse Test Config.vi" Type="VI" URL="../Initialization/INIT Parse Test Config.vi"/>
 			<Item Name="INIT_Control Panel Refs.vi" Type="VI" URL="../Initialization/INIT_Control Panel Refs.vi"/>
 			<Item Name="INIT_Read Test Config File.vi" Type="VI" URL="../Initialization/INIT_Read Test Config File.vi"/>
+			<Item Name="IO_DataQ Get Corrections.vi" Type="VI" URL="../Hardware Interface/IO_DataQ Get Corrections.vi"/>
 			<Item Name="IO_DataQ_Config.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Config.vi"/>
-			<Item Name="IO_Dataq_Read_Measurement.vi" Type="VI" URL="../Hardware Interface/IO_Dataq_Read_Measurement.vi"/>
-			<Item Name="IO_Set Status Color.vi" Type="VI" URL="../Hardware Interface/IO_Set Status Color.vi"/>
+			<Item Name="IO_Dataq_ReadAIn.vi" Type="VI" URL="../Hardware Interface/IO_Dataq_ReadAIn.vi"/>
+			<Item Name="IO_DataQ_WriteDOut.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_WriteDOut.vi"/>
+			<Item Name="IO_PumpCmdMsg.vi" Type="VI" URL="../Hardware Interface/IO_PumpCmdMsg.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Keyence LK-G3000.lvlib" Type="Library" URL="../Hardware Interface/LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Keyence LK-G3000.lvlib"/>
+			<Item Name="LK-G3000 GetCalcData.vi" Type="VI" URL="../Hardware Interface/LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Examples/LK-G3000 GetCalcData.vi"/>
+			<Item Name="LkIF.dll" Type="Document" URL="../Hardware Interface/Keyance Demo Code/Keyence LK-G3000/LkIF.dll"/>
 			<Item Name="PRO LP Filter.vi" Type="VI" URL="../Process Data/PRO LP Filter.vi"/>
 			<Item Name="PRO_Check Level.vi" Type="VI" URL="../Process Data/PRO_Check Level.vi"/>
 			<Item Name="PRO_Check Resistor.vi" Type="VI" URL="../Process Data/PRO_Check Resistor.vi"/>
@@ -173,6 +173,9 @@
 			<Item Name="RPT_Convert Waveform.vi" Type="VI" URL="../Resport Generation/RPT_Convert Waveform.vi"/>
 			<Item Name="RPT_Report Generate.vi" Type="VI" URL="../Resport Generation/RPT_Report Generate.vi"/>
 			<Item Name="UI_Start Test Wizard.vi" Type="VI" URL="../User Interface/UI_Start Test Wizard.vi"/>
+			<Item Name="UTIL_CalLevel.vi" Type="VI" URL="../Utility/UTIL_CalLevel.vi"/>
+			<Item Name="UTIL_GetCalCoef.vi" Type="VI" URL="../Utility/UTIL_GetCalCoef.vi"/>
+			<Item Name="UTIL_SetStatusColor.vi" Type="VI" URL="../Utility/UTIL_SetStatusColor.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
