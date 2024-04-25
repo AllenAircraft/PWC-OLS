@@ -19,6 +19,8 @@
 		<Item Name="IO_DataQ_Init.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Init.vi"/>
 		<Item Name="IO_Level_Sensor.vi" Type="VI" URL="../Hardware Interface/IO_Level_Sensor.vi"/>
 		<Item Name="IO_PWM.vi" Type="VI" URL="../Hardware Interface/_Archive/IO_PWM.vi"/>
+		<Item Name="Test Subvi.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Test Subvi.vi"/>
+		<Item Name="Test_Dataq_ReadAIn.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Test_Dataq_ReadAIn.vi"/>
 		<Item Name="ULTI_EdgeDetector.vi" Type="VI" URL="../Utility/ULTI_EdgeDetector.vi"/>
 		<Item Name="UTIL_Round_100.vi" Type="VI" URL="../Utility/UTIL_Round_100.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -135,10 +137,11 @@
 			</Item>
 			<Item Name="CLT_Test State Mach.vi" Type="VI" URL="../Control Algorithm/CLT_Test State Mach.vi"/>
 			<Item Name="CTL Pump_Controller.vi" Type="VI" URL="../Control Algorithm/CTL Pump_Controller.vi"/>
+			<Item Name="CTL_Fill-DrainJog.vi" Type="VI" URL="../Control Algorithm/CTL_Fill-DrainJog.vi"/>
 			<Item Name="CTL_Level Spec.vi" Type="VI" URL="../Control Algorithm/CTL_Level Spec.vi"/>
 			<Item Name="CTL_Limit Check.vi" Type="VI" URL="../Control Algorithm/CTL_Limit Check.vi"/>
-			<Item Name="CTL_Pump Logic.vi" Type="VI" URL="../Control Algorithm/CTL_Pump Logic.vi"/>
 			<Item Name="CTL_Set_Resistor Value.vi" Type="VI" URL="../Control Algorithm/CTL_Set_Resistor Value.vi"/>
+			<Item Name="CTL_SimLevelSensor.vi" Type="VI" URL="../Control Algorithm/CTL_SimLevelSensor.vi"/>
 			<Item Name="CTL_Simulate Resistor.vi" Type="VI" URL="../Control Algorithm/CTL_Simulate Resistor.vi"/>
 			<Item Name="CTL_Spec LUT.vi" Type="VI" URL="../Control Algorithm/CTL_Spec LUT.vi"/>
 			<Item Name="Def Bench Status.ctl" Type="VI" URL="../Control Definitions/Def Bench Status.ctl"/>
