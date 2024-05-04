@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_OLS_Main.vi" Type="VI" URL="../_OLS_Main.vi"/>
 		<Item Name="Calibrate DataQ.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Calibrate DataQ.vi"/>
+		<Item Name="CLT_Test State Mach.vi" Type="VI" URL="../Control Algorithm/CLT_Test State Mach.vi"/>
 		<Item Name="CTL_Calc_Level.vi" Type="VI" URL="../Control Algorithm/CTL_Calc_Level.vi"/>
 		<Item Name="Global 1.vi" Type="VI" URL="../Control Definitions/Global 1.vi"/>
 		<Item Name="Global 2.vi" Type="VI" URL="../Control Definitions/Global 2.vi"/>
@@ -136,7 +137,6 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CLT_Test State Mach.vi" Type="VI" URL="../Control Algorithm/CLT_Test State Mach.vi"/>
 			<Item Name="CTL Pump_Controller.vi" Type="VI" URL="../Control Algorithm/CTL Pump_Controller.vi"/>
 			<Item Name="CTL_Fill-DrainJog.vi" Type="VI" URL="../Control Algorithm/CTL_Fill-DrainJog.vi"/>
 			<Item Name="CTL_Level Spec.vi" Type="VI" URL="../Control Algorithm/CTL_Level Spec.vi"/>
