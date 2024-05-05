@@ -15,6 +15,8 @@
 		<Item Name="Calibrate DataQ.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Calibrate DataQ.vi"/>
 		<Item Name="CLT_Test State Mach.vi" Type="VI" URL="../Control Algorithm/CLT_Test State Mach.vi"/>
 		<Item Name="CTL_Calc_Level.vi" Type="VI" URL="../Control Algorithm/CTL_Calc_Level.vi"/>
+		<Item Name="Ded Spec RNG.ctl" Type="VI" URL="../Control Definitions/Ded Spec RNG.ctl"/>
+		<Item Name="Def Spec RangeV1.ctl" Type="VI" URL="../Control Definitions/Def Spec RangeV1.ctl"/>
 		<Item Name="Global 1.vi" Type="VI" URL="../Control Definitions/Global 1.vi"/>
 		<Item Name="Global 2.vi" Type="VI" URL="../Control Definitions/Global 2.vi"/>
 		<Item Name="IO_DataQ_Close.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Close.vi"/>
@@ -24,6 +26,8 @@
 		<Item Name="Test Subvi.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Test Subvi.vi"/>
 		<Item Name="Test_Dataq_ReadAIn.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Test_Dataq_ReadAIn.vi"/>
 		<Item Name="ULTI_EdgeDetector.vi" Type="VI" URL="../Utility/ULTI_EdgeDetector.vi"/>
+		<Item Name="UTIL_FillorDrain.vi" Type="VI" URL="../Utility/UTIL_FillorDrain.vi"/>
+		<Item Name="UTIL_Read_TestVector File.vi" Type="VI" URL="../Utility/UTIL_Read_TestVector File.vi"/>
 		<Item Name="UTIL_Round_100.vi" Type="VI" URL="../Utility/UTIL_Round_100.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
