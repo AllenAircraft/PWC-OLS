@@ -13,13 +13,29 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_OLS_Main.vi" Type="VI" URL="../_OLS_Main.vi"/>
 		<Item Name="Calibrate DataQ.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Calibrate DataQ.vi"/>
+		<Item Name="CLT_Test State Mach.vi" Type="VI" URL="../Control Algorithm/CLT_Test State Mach.vi"/>
 		<Item Name="CTL_Calc_Level.vi" Type="VI" URL="../Control Algorithm/CTL_Calc_Level.vi"/>
+		<Item Name="Ded LUT_Status.ctl" Type="VI" URL="../Control Definitions/Ded LUT_Status.ctl"/>
+		<Item Name="Ded Spec RNG.ctl" Type="VI" URL="../Control Definitions/Ded Spec RNG.ctl"/>
+		<Item Name="Def Measure.ctl" Type="VI" URL="../Control Definitions/Def Measure.ctl"/>
+		<Item Name="Def Spec RangeV1.ctl" Type="VI" URL="../Control Definitions/Def Spec RangeV1.ctl"/>
 		<Item Name="Global 1.vi" Type="VI" URL="../Control Definitions/Global 1.vi"/>
+		<Item Name="Global 2.vi" Type="VI" URL="../Control Definitions/Global 2.vi"/>
 		<Item Name="IO_DataQ_Close.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Close.vi"/>
 		<Item Name="IO_DataQ_Init.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Init.vi"/>
 		<Item Name="IO_Level_Sensor.vi" Type="VI" URL="../Hardware Interface/IO_Level_Sensor.vi"/>
 		<Item Name="IO_PWM.vi" Type="VI" URL="../Hardware Interface/_Archive/IO_PWM.vi"/>
+		<Item Name="PRO_Check LevelV1.vi" Type="VI" URL="../Process Data/PRO_Check LevelV1.vi"/>
+		<Item Name="PRO_Check ValuesV1.vi" Type="VI" URL="../Process Data/PRO_Check ValuesV1.vi"/>
+		<Item Name="PRO_Check_LevelV1.vi" Type="VI" URL="../Process Data/PRO_Check_LevelV1.vi"/>
+		<Item Name="PRO_Check_ResistorV1.vi" Type="VI" URL="../Process Data/PRO_Check_ResistorV1.vi"/>
+		<Item Name="Test Subvi.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Test Subvi.vi"/>
+		<Item Name="Test_Dataq_ReadAIn.vi" Type="VI" URL="../Hardware Interface/USB_DataQ_Example-main/Test_Dataq_ReadAIn.vi"/>
 		<Item Name="ULTI_EdgeDetector.vi" Type="VI" URL="../Utility/ULTI_EdgeDetector.vi"/>
+		<Item Name="UTIL_FillorDrain.vi" Type="VI" URL="../Utility/UTIL_FillorDrain.vi"/>
+		<Item Name="UTIL_LevelStatus.vi" Type="VI" URL="../Utility/UTIL_LevelStatus.vi"/>
+		<Item Name="UTIL_Parse_Vector_File.vi" Type="VI" URL="../Utility/UTIL_Parse_Vector_File.vi"/>
+		<Item Name="UTIL_Read_TestVector File.vi" Type="VI" URL="../Utility/UTIL_Read_TestVector File.vi"/>
 		<Item Name="UTIL_Round_100.vi" Type="VI" URL="../Utility/UTIL_Round_100.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -133,12 +149,12 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CLT_Test State Mach.vi" Type="VI" URL="../Control Algorithm/CLT_Test State Mach.vi"/>
 			<Item Name="CTL Pump_Controller.vi" Type="VI" URL="../Control Algorithm/CTL Pump_Controller.vi"/>
+			<Item Name="CTL_Fill-DrainJog.vi" Type="VI" URL="../Control Algorithm/CTL_Fill-DrainJog.vi"/>
 			<Item Name="CTL_Level Spec.vi" Type="VI" URL="../Control Algorithm/CTL_Level Spec.vi"/>
 			<Item Name="CTL_Limit Check.vi" Type="VI" URL="../Control Algorithm/CTL_Limit Check.vi"/>
-			<Item Name="CTL_Pump Logic.vi" Type="VI" URL="../Control Algorithm/CTL_Pump Logic.vi"/>
 			<Item Name="CTL_Set_Resistor Value.vi" Type="VI" URL="../Control Algorithm/CTL_Set_Resistor Value.vi"/>
+			<Item Name="CTL_SimLevelSensor.vi" Type="VI" URL="../Control Algorithm/CTL_SimLevelSensor.vi"/>
 			<Item Name="CTL_Simulate Resistor.vi" Type="VI" URL="../Control Algorithm/CTL_Simulate Resistor.vi"/>
 			<Item Name="CTL_Spec LUT.vi" Type="VI" URL="../Control Algorithm/CTL_Spec LUT.vi"/>
 			<Item Name="Def Bench Status.ctl" Type="VI" URL="../Control Definitions/Def Bench Status.ctl"/>
@@ -175,6 +191,7 @@
 			<Item Name="UI_Start Test Wizard.vi" Type="VI" URL="../User Interface/UI_Start Test Wizard.vi"/>
 			<Item Name="UTIL_CalLevel.vi" Type="VI" URL="../Utility/UTIL_CalLevel.vi"/>
 			<Item Name="UTIL_GetCalCoef.vi" Type="VI" URL="../Utility/UTIL_GetCalCoef.vi"/>
+			<Item Name="UTIL_ResistorStatus.vi" Type="VI" URL="../Utility/UTIL_ResistorStatus.vi"/>
 			<Item Name="UTIL_SetStatusColor.vi" Type="VI" URL="../Utility/UTIL_SetStatusColor.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
