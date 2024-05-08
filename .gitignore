@@ -5,3 +5,5 @@ _Archive
 Control Definitions/_Archive
 .Changed 4-29
 Test_1*.xlsx
+./$ReportFiles/Post 900 Cycles AEPS Test Data/
+*.zip
