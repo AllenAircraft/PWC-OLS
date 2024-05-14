@@ -7,3 +7,4 @@ Control Definitions/_Archive
 Test_1*.xlsx
 ./$ReportFiles/Post 900 Cycles AEPS Test Data/
 *.zip
+./$ReportFiles/RPT*
