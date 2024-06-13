@@ -182,31 +182,33 @@
 			<Item Name="UTIL_Timebase.vi" Type="VI" URL="../Utility/UTIL_Timebase.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="_OLS_Main" Type="EXE">
+			<Item Name="PWC-OLS" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{C9D1E91E-123D-45B0-874D-F16A42F33B2F}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{31386A23-F98D-4BAE-BAC3-4D2D6511F144}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{4BC800EE-E7CE-46F2-8C72-76199098C2C7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7E67AC9B-879A-4681-A732-2B6BB5109C70}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{3E302938-CAEC-4033-8FBC-F42EDB7B8295}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">_OLS_Main</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7090C705-9E90-4F56-9426-61577AFDBEAB}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">A LabVIEW program to run the Elevated Oil Level Test.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">PWC-OLS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/_OLS_Main</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/PWC-OLS</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{E248D6B5-53D1-47B1-9426-443C36F301D3}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B76D1411-5415-4DB1-BA81-C9E7DEE1BED7}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/_OLS_Main/Application.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">_PWQ-OLS.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/PWC-OLS/_PWQ-OLS.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/_OLS_Main/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/PWC-OLS/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5B821BD7-DC03-446D-80BF-49CA0425C1FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2F22169E-55B2-459D-B432-5D2270AD6669}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_OLS_Main.vi</Property>
@@ -214,53 +216,12 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Allen Aircraft Products Inc</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">_OLS_Main</Property>
-				<Property Name="TgtF_internalName" Type="Str">_OLS_Main</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">PWC-OLS</Property>
+				<Property Name="TgtF_internalName" Type="Str">PWC-OLS</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Allen Aircraft Products Inc</Property>
-				<Property Name="TgtF_productName" Type="Str">_OLS_Main</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{E520AFF1-75F0-4366-93FB-B522F5F953E2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="_OLS_Main2" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F1AA1256-0FF6-4311-A2CA-053E1DB248BC}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F932EA08-BA1D-4932-8678-FF18079E4E42}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{4D7A6774-4F8D-47A4-B939-23C2C4AB63ED}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">_OLS_Main2</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/_OLS_Main2</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{25F97CFE-468B-43E0-81EF-9ECB9EA10B6D}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/_OLS_Main2/Application.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/_OLS_Main2/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D0D03B57-3105-422C-99FA-7EA242731B19}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_OLS_Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Allen Aircraft Products Inc</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">_OLS_Main2</Property>
-				<Property Name="TgtF_internalName" Type="Str">_OLS_Main2</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Allen Aircraft Products Inc</Property>
-				<Property Name="TgtF_productName" Type="Str">_OLS_Main2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{CE3E86DB-F33F-456B-97F8-B412ABF3FF6C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">PWC-OLS</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5D70D6C9-8917-4D6F-9F92-F537A8D3EAEF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">_PWQ-OLS.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
