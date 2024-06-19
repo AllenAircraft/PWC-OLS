@@ -4,7 +4,6 @@ _Archive
 ./Hardware Interface/USB_DataQ_Example-main
 Control Definitions/_Archive
 .Changed 4-29
-*.xlsx
 ./$ReportFiles/Post 900 Cycles AEPS Test Data/
 *.zip
-./$ReportFiles/RPT*
+RPT*.xlsx
