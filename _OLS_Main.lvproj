@@ -143,6 +143,7 @@
 			<Item Name="Def Results2.ctl" Type="VI" URL="../Control Definitions/Def Results2.ctl"/>
 			<Item Name="Def TestState.ctl" Type="VI" URL="../Control Definitions/Def TestState.ctl"/>
 			<Item Name="Def_LevelSwitched.ctl" Type="VI" URL="../Control Definitions/Def_LevelSwitched.ctl"/>
+			<Item Name="DEF_SpecsOut.ctl" Type="VI" URL="../Control Definitions/DEF_SpecsOut.ctl"/>
 			<Item Name="Global 1.vi" Type="VI" URL="../Control Definitions/Global 1.vi"/>
 			<Item Name="Global 2.vi" Type="VI" URL="../Control Definitions/Global 2.vi"/>
 			<Item Name="HMI_OpenFileDialog.vi" Type="VI" URL="../User Interface/HMI_OpenFileDialog.vi"/>
@@ -180,6 +181,7 @@
 			<Item Name="UTIL_Round_100.vi" Type="VI" URL="../Utility/UTIL_Round_100.vi"/>
 			<Item Name="UTIL_SetStatusColor.vi" Type="VI" URL="../Utility/UTIL_SetStatusColor.vi"/>
 			<Item Name="UTIL_Timebase.vi" Type="VI" URL="../Utility/UTIL_Timebase.vi"/>
+			<Item Name="UTIL_Timer.vi" Type="VI" URL="../Utility/UTIL_Timer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PWC-OLS" Type="EXE">
@@ -199,7 +201,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B76D1411-5415-4DB1-BA81-C9E7DEE1BED7}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">_PWC-OLS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/PWC-OLS/_PWC-OLS.exe</Property>
@@ -208,7 +210,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/PWC-OLS/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{573F0D66-C706-4840-9149-A13E0A41BFE6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9D571C03-5830-4321-870F-CCDC343A3FCE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_OLS_Main.vi</Property>
