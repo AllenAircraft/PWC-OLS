@@ -53,6 +53,7 @@
 			</Item>
 			<Item Name="IO_DataQ_Init.vi" Type="VI" URL="../IO_DataQ_Init.vi"/>
 			<Item Name="IO_DataQ_WriteDOut.vi" Type="VI" URL="../IO_DataQ_WriteDOut.vi"/>
+			<Item Name="IO_DataQCommandwRetry.vi" Type="VI" URL="../../../../Users/ff107/OneDrive/Documents/GitHub/PWC-OLS/Hardware Interface/IO_DataQCommandwRetry.vi"/>
 			<Item Name="IO_PumpCmdMsg.vi" Type="VI" URL="../IO_PumpCmdMsg.vi"/>
 			<Item Name="Keyence LK-G3000.lvlib" Type="Library" URL="../LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Keyence LK-G3000.lvlib"/>
 			<Item Name="LK-G3000 GetCalcData.vi" Type="VI" URL="../LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Examples/LK-G3000 GetCalcData.vi"/>
