@@ -68,7 +68,6 @@
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
@@ -128,7 +127,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -164,15 +162,18 @@
 			<Item Name="Def FullCfg.ctl" Type="VI" URL="../Control Definitions/Def FullCfg.ctl"/>
 			<Item Name="Def PumpCtlRefs.ctl" Type="VI" URL="../Control Definitions/Def PumpCtlRefs.ctl"/>
 			<Item Name="Def Results2.ctl" Type="VI" URL="../Control Definitions/Def Results2.ctl"/>
-			<Item Name="Def Spec Range.ctl" Type="VI" URL="../Control Definitions/Def Spec Range.ctl"/>
+			<Item Name="Def TestState.ctl" Type="VI" URL="../Control Definitions/Def TestState.ctl"/>
 			<Item Name="Def Xresult.ctl" Type="VI" URL="../Control Definitions/Def Xresult.ctl"/>
+			<Item Name="Def_LevelSwitched.ctl" Type="VI" URL="../Control Definitions/Def_LevelSwitched.ctl"/>
+			<Item Name="DEF_SpecsOut.ctl" Type="VI" URL="../Control Definitions/DEF_SpecsOut.ctl"/>
+			<Item Name="HMI_OpenFileDialog.vi" Type="VI" URL="../User Interface/HMI_OpenFileDialog.vi"/>
 			<Item Name="INIT Parse Test Config.vi" Type="VI" URL="../Initialization/INIT Parse Test Config.vi"/>
 			<Item Name="INIT_Control Panel Refs.vi" Type="VI" URL="../Initialization/INIT_Control Panel Refs.vi"/>
 			<Item Name="INIT_Read Test Config File.vi" Type="VI" URL="../Initialization/INIT_Read Test Config File.vi"/>
-			<Item Name="IO_DataQ Get Corrections.vi" Type="VI" URL="../Hardware Interface/IO_DataQ Get Corrections.vi"/>
 			<Item Name="IO_DataQ_Config.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Config.vi"/>
 			<Item Name="IO_Dataq_ReadAIn.vi" Type="VI" URL="../Hardware Interface/IO_Dataq_ReadAIn.vi"/>
 			<Item Name="IO_DataQ_WriteDOut.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_WriteDOut.vi"/>
+			<Item Name="IO_DataQCommandwRetry.vi" Type="VI" URL="../Hardware Interface/IO_DataQCommandwRetry.vi"/>
 			<Item Name="IO_PumpCmdMsg.vi" Type="VI" URL="../Hardware Interface/IO_PumpCmdMsg.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -180,19 +181,20 @@
 			<Item Name="Keyence LK-G3000.lvlib" Type="Library" URL="../Hardware Interface/LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Keyence LK-G3000.lvlib"/>
 			<Item Name="LK-G3000 GetCalcData.vi" Type="VI" URL="../Hardware Interface/LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Examples/LK-G3000 GetCalcData.vi"/>
 			<Item Name="LkIF.dll" Type="Document" URL="../Hardware Interface/Keyance Demo Code/Keyence LK-G3000/LkIF.dll"/>
-			<Item Name="PRO LP Filter.vi" Type="VI" URL="../Process Data/PRO LP Filter.vi"/>
-			<Item Name="PRO_Check Level.vi" Type="VI" URL="../Process Data/PRO_Check Level.vi"/>
-			<Item Name="PRO_Check Resistor.vi" Type="VI" URL="../Process Data/PRO_Check Resistor.vi"/>
-			<Item Name="PRO_Check Values.vi" Type="VI" URL="../Process Data/PRO_Check Values.vi"/>
-			<Item Name="PRO_Detect Switch Point.vi" Type="VI" URL="../Process Data/PRO_Detect Switch Point.vi"/>
+			<Item Name="PRO_VerifySpec.vi" Type="VI" URL="../Process Data/PRO_VerifySpec.vi"/>
 			<Item Name="RPT_Convert Results.vi" Type="VI" URL="../Resport Generation/RPT_Convert Results.vi"/>
 			<Item Name="RPT_Convert Waveform.vi" Type="VI" URL="../Resport Generation/RPT_Convert Waveform.vi"/>
 			<Item Name="RPT_Report Generate.vi" Type="VI" URL="../Resport Generation/RPT_Report Generate.vi"/>
 			<Item Name="UI_Start Test Wizard.vi" Type="VI" URL="../User Interface/UI_Start Test Wizard.vi"/>
+			<Item Name="UTIL_BundleDataOut.vi" Type="VI" URL="../Utility/UTIL_BundleDataOut.vi"/>
 			<Item Name="UTIL_CalLevel.vi" Type="VI" URL="../Utility/UTIL_CalLevel.vi"/>
 			<Item Name="UTIL_GetCalCoef.vi" Type="VI" URL="../Utility/UTIL_GetCalCoef.vi"/>
+			<Item Name="UTIL_MergeData.vi" Type="VI" URL="../Utility/UTIL_MergeData.vi"/>
+			<Item Name="UTIL_ResetDataStreams.vi" Type="VI" URL="../Utility/UTIL_ResetDataStreams.vi"/>
 			<Item Name="UTIL_ResistorStatus.vi" Type="VI" URL="../Utility/UTIL_ResistorStatus.vi"/>
 			<Item Name="UTIL_SetStatusColor.vi" Type="VI" URL="../Utility/UTIL_SetStatusColor.vi"/>
+			<Item Name="UTIL_Timebase.vi" Type="VI" URL="../Utility/UTIL_Timebase.vi"/>
+			<Item Name="UTIL_Timer.vi" Type="VI" URL="../Utility/UTIL_Timer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
