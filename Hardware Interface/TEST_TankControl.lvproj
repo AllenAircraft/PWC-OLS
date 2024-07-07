@@ -41,6 +41,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -51,9 +52,10 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="IO_DataQ_Config.vi" Type="VI" URL="../IO_DataQ_Config.vi"/>
 			<Item Name="IO_DataQ_Init.vi" Type="VI" URL="../IO_DataQ_Init.vi"/>
 			<Item Name="IO_DataQ_WriteDOut.vi" Type="VI" URL="../IO_DataQ_WriteDOut.vi"/>
-			<Item Name="IO_DataQCommandwRetry.vi" Type="VI" URL="../../../../Users/ff107/OneDrive/Documents/GitHub/PWC-OLS/Hardware Interface/IO_DataQCommandwRetry.vi"/>
+			<Item Name="IO_DataQCommandwRetry.vi" Type="VI" URL="../IO_DataQCommandwRetry.vi"/>
 			<Item Name="IO_PumpCmdMsg.vi" Type="VI" URL="../IO_PumpCmdMsg.vi"/>
 			<Item Name="Keyence LK-G3000.lvlib" Type="Library" URL="../LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Keyence LK-G3000.lvlib"/>
 			<Item Name="LK-G3000 GetCalcData.vi" Type="VI" URL="../LabVIEW_InstrDriver_forLK-G3000_ver1_0_1_0/32bit/Keyence LK-G3000/Examples/LK-G3000 GetCalcData.vi"/>

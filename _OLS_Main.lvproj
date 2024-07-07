@@ -155,6 +155,7 @@
 			<Item Name="IO_DataQ_Init.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_Init.vi"/>
 			<Item Name="IO_Dataq_ReadAIn.vi" Type="VI" URL="../Hardware Interface/IO_Dataq_ReadAIn.vi"/>
 			<Item Name="IO_DataQ_WriteDOut.vi" Type="VI" URL="../Hardware Interface/IO_DataQ_WriteDOut.vi"/>
+			<Item Name="IO_DataQCommandwRetry.vi" Type="VI" URL="../Hardware Interface/IO_DataQCommandwRetry.vi"/>
 			<Item Name="IO_Level_Sensor.vi" Type="VI" URL="../Hardware Interface/IO_Level_Sensor.vi"/>
 			<Item Name="IO_PumpCmdMsg.vi" Type="VI" URL="../Hardware Interface/IO_PumpCmdMsg.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -201,7 +202,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B76D1411-5415-4DB1-BA81-C9E7DEE1BED7}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">_PWC-OLS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/PWC-OLS/_PWC-OLS.exe</Property>
@@ -210,7 +211,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/PWC-OLS/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9D571C03-5830-4321-870F-CCDC343A3FCE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6F9509D5-6B65-48CC-A5BE-B2DA5C30E084}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_OLS_Main.vi</Property>
