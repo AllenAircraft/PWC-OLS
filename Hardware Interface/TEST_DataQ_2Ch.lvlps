@@ -1,3 +1,6 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "255,447,752,946"
+
 [AB_Cache_{6F84F631-DFDF-40AB-86E4-EDA46E9DC076}]
 Cache_Path[Path] Line0001 = "/C/Users/ff107/AppData/Local/Temp/AB_Cache_{6F84F6"
 Cache_Path[Path] Line0002 = "31-DFDF-40AB-86E4-EDA46E9DC076}.txt"
@@ -5,6 +8,3 @@ Cache_Path[Path] Line0002 = "31-DFDF-40AB-86E4-EDA46E9DC076}.txt"
 [AB_Cache_{8D4815E8-0EEA-4C8C-AE11-27297EB401E5}]
 Cache_Path[Path] Line0001 = "/C/Users/ff107/AppData/Local/Temp/AB_Cache_{8D4815"
 Cache_Path[Path] Line0002 = "E8-0EEA-4C8C-AE11-27297EB401E5}.txt"
-
-[ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "255,447,752,946"
