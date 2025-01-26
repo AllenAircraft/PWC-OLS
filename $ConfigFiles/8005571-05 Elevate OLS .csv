@@ -1,0 +1,48 @@
+Columns from colC,12,Rows From row3,39,,,,,,,,,,
+,,0,1,2,3,4,5,6,7,8,9,10,11
+Relative Root Name,PWC-OLS,Aohm Lo,Aohm Hi,A Fill Lo,A Fill Hi,A Drain Lo,A Drain Hi,Bohm Lo,Bohm Hi,B Fill Lo,B Fill Hi,B Drain Lo,B Drain Hi
+Test Type,OLS001,98,102,8.5,8.5,8.5,8.5,98,102,8.5,8.5,8.5,8.5
+Step levels,11,98,102,7.91,8.01,7.55,7.65,98,102,7.685,7.785,7.325,7.425
+Resistor Tolerence,0.01,197,203,7.46,7.56,7.1,7.2,197,203,7.235,7.335,6.875,6.975
+Sample Rate,0.05,296,304,7.01,7.11,6.65,6.75,296,304,6.785,6.885,6.425,6.525
+Resistor,100,395,405,6.56,6.66,6.2,6.3,395,405,6.335,6.435,5.975,6.075
+Wait time,3,494,506,6.11,6.21,5.75,5.85,494,506,5.885,5.985,5.525,5.625
+Sim Fill Rate,0.002,593,607,5.66,5.76,5.3,5.4,593,607,5.435,5.535,5.075,5.175
+Empty Level,8.4,692,708,5.21,5.31,4.85,4.95,692,708,4.985,5.085,4.625,4.725
+Full Level,2.6,791,809,4.76,4.86,4.4,4.5,791,809,4.535,4.635,4.175,4.275
+RNG_Slow,0.5,890,910,4.31,4.41,3.95,4.05,890,910,4.085,4.185,3.725,3.825
+RNG_Creep,0.007,989,1011,3.86,3.96,3.5,3.6,989,1011,3.635,3.735,3.275,3.375
+RNG_Stop,0.002,1088,1112,3.41,3.51,3.05,3.15,1088,1112,3.185,3.285,2.825,2.925
+Laser Slope,-0.996,1088,1112,2.5,2.5,2.5,2.5,1088,1112,2.5,2.5,2.5,2.5
+Laser_Offset,9.601,,,,,,,,,,,,
+Level Cal Technician,Default,,,,,,,,,,,,
+Level Cal Date,1/26/2024,,,,,,,,,,,,
+Pump Visa Name,COM4,,,,,,,,,,,,
+Zero Settle sec,5,,,,,,,,,,,,
+SPD_Fast,100,,,,,,,,,,,,
+SPD_Slow,30,,,,,,,,,,,,
+SPD_Creep,7,,,,,,,,,,,,
+Level Cal File,CAL_Level_RnR_241105.xlsx,,,,,,,,,,,,
+DataQ Runtime Visa Name,COM4,,,,,,,,,,,,
+Num of Channels,2,,,,,,,,,,,,
+AI0_Slope,175.33,,,,,,,,,,,,
+AI0_Offset,2.65678,,,,,,,,,,,,
+AI1_Slope,174.448,,,,,,,,,,,,
+AI1_Offset,3.00272,,,,,,,,,,,,
+AI2_Slope,175,,,,,,,,,,,,
+AI2_Offset,3,,,,,,,,,,,,
+AI3_Slope,175,,,,,,,,,,,,
+AI3_Offset,3,,,,,,,,,,,,
+AI4_Slope,175,,,,,,,,,,,,
+AI4_Offset,3,,,,,,,,,,,,
+AI5_Slope,175,,,,,,,,,,,,
+AI5_Offset,3,,,,,,,,,,,,
+AI6_Slope,175,,,,,,,,,,,,
+AI6_Offset,3,,,,,,,,,,,,
+AI7_Slope,175,,,,,,,,,,,,
+AI7_Offset,3,,,,,,,,,,,,
+Out Scale,Resist I-source,,,Out Scale,,,,,,,,,
+Dataq Cal Technician,Default,,0,Voltage,,,,,,,,,
+Dataq Cal Date,1/26/2024,,1,Resist Divider,,,,,,,,,
+Report Template,PWC-OLS\$ReportFiles\ReportTemplate_03.xlsx,,2,Resist I-source,,,,,,,,,
+Caibration 2 use,Default,,,,,,,,,,,,
