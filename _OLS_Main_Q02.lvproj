@@ -11,9 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="$Calibrtation" Type="Folder">
-			<Item Name="CAL_Level_RnR_241105.xlsx" Type="Document" URL="../$Calibrtation/CAL_Level_RnR_241105.xlsx"/>
-			<Item Name="LevelZero.ico" Type="Document" URL="../$Calibrtation/LevelZero.ico"/>
+		<Item Name="$Calibration" Type="Folder">
+			<Item Name="$BugLog.xlsx" Type="Document" URL="../$Calibration/$BugLog.xlsx"/>
+			<Item Name="CAL_Level_RnR_241105.xlsx" Type="Document" URL="../$Calibration/CAL_Level_RnR_241105.xlsx"/>
+			<Item Name="LevelZero.ico" Type="Document" URL="../$Calibration/LevelZero.ico"/>
 		</Item>
 		<Item Name="$ConfigFiles" Type="Folder">
 			<Item Name="8005571-05 Elevate OLS .csv" Type="Document" URL="../$ConfigFiles/8005571-05 Elevate OLS .csv"/>
@@ -21,7 +22,7 @@
 			<Item Name="Level Rig ATP OLS-001 Config2.csv" Type="Document" URL="../$ConfigFiles/Level Rig ATP OLS-001 Config2.csv"/>
 		</Item>
 		<Item Name="$ReportFiles" Type="Folder">
-			<Item Name="ReportTemplate_03.xlsx" Type="Document" URL="../$ReportFiles/ReportTemplate_03.xlsx"/>
+			<Item Name="ReportTemplate_03.xltx" Type="Document" URL="../$ReportFiles/ReportTemplate_03.xltx"/>
 		</Item>
 		<Item Name="_OLS_Main_Q02.vi" Type="VI" URL="../_OLS_Main_Q02.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -181,6 +182,7 @@
 			<Item Name="DEF_BenchParams.ctl" Type="VI" URL="../Control Definitions/DEF_BenchParams.ctl"/>
 			<Item Name="DEF_BenchStatus.ctl" Type="VI" URL="../Control Definitions/DEF_BenchStatus.ctl"/>
 			<Item Name="DEF_CalConstants.ctl" Type="VI" URL="../Control Definitions/DEF_CalConstants.ctl"/>
+			<Item Name="DEF_ConfigRings.ctl" Type="VI" URL="../Control Definitions/DEF_ConfigRings.ctl"/>
 			<Item Name="DEF_DataqParams.ctl" Type="VI" URL="../Control Definitions/DEF_DataqParams.ctl"/>
 			<Item Name="DEF_FullConfig.ctl" Type="VI" URL="../Control Definitions/DEF_FullConfig.ctl"/>
 			<Item Name="DEF_LevelOut.ctl" Type="VI" URL="../Control Definitions/DEF_LevelOut.ctl"/>
@@ -189,6 +191,7 @@
 			<Item Name="DEF_PumpManCtl.ctl" Type="VI" URL="../Control Definitions/DEF_PumpManCtl.ctl"/>
 			<Item Name="DEF_PumpParams.ctl" Type="VI" URL="../Control Definitions/DEF_PumpParams.ctl"/>
 			<Item Name="Def_PumpSpeed.ctl" Type="VI" URL="../Control Definitions/Def_PumpSpeed.ctl"/>
+			<Item Name="DEF_RegTestInfo.ctl" Type="VI" URL="../Control Definitions/DEF_RegTestInfo.ctl"/>
 			<Item Name="DEF_Results.ctl" Type="VI" URL="../Control Definitions/DEF_Results.ctl"/>
 			<Item Name="DEF_Results1D.ctl" Type="VI" URL="../Control Definitions/DEF_Results1D.ctl"/>
 			<Item Name="DEF_SpecsOut.ctl" Type="VI" URL="../Control Definitions/DEF_SpecsOut.ctl"/>
@@ -196,7 +199,9 @@
 			<Item Name="DEF_TestInfo.ctl" Type="VI" URL="../Control Definitions/DEF_TestInfo.ctl"/>
 			<Item Name="Global 1.vi" Type="VI" URL="../Control Definitions/Global 1.vi"/>
 			<Item Name="Global 2.vi" Type="VI" URL="../Control Definitions/Global 2.vi"/>
-			<Item Name="HMI_GetPaths.vi" Type="VI" URL="../User Interface/HMI_GetPaths.vi"/>
+			<Item Name="HMI_FileSaveAs.vi" Type="VI" URL="../User Interface/HMI_FileSaveAs.vi"/>
+			<Item Name="HMI_GetTestInfoApp.vi" Type="VI" URL="../User Interface/HMI_GetTestInfoApp.vi"/>
+			<Item Name="HMI_GetTestInfoDialog.vi" Type="VI" URL="../User Interface/HMI_GetTestInfoDialog.vi"/>
 			<Item Name="INIT Parse Test Config.vi" Type="VI" URL="../Initialization/INIT Parse Test Config.vi"/>
 			<Item Name="INIT_Control Panel Refs.vi" Type="VI" URL="../Initialization/INIT_Control Panel Refs.vi"/>
 			<Item Name="INIT_Read Test Config File.vi" Type="VI" URL="../Initialization/INIT_Read Test Config File.vi"/>
@@ -219,7 +224,7 @@
 			<Item Name="PRO_CheckATP.vi" Type="VI" URL="../Process Data/PRO_CheckATP.vi"/>
 			<Item Name="PRO_SwitchDetect.vi" Type="VI" URL="../Process Data/PRO_SwitchDetect.vi"/>
 			<Item Name="PRO_VerifySpec.vi" Type="VI" URL="../Process Data/PRO_VerifySpec.vi"/>
-			<Item Name="Registry Keys.ctl" Type="VI" URL="../Control Definitions/Registry Keys.ctl"/>
+			<Item Name="RegTestInfo.vi" Type="VI" URL="../User Interface/RegTestInfo.vi"/>
 			<Item Name="RPT_CalibrationInfo.vi" Type="VI" URL="../Resport Generation/RPT_CalibrationInfo.vi"/>
 			<Item Name="RPT_Convert Results.vi" Type="VI" URL="../Resport Generation/RPT_Convert Results.vi"/>
 			<Item Name="RPT_Convert Waveform.vi" Type="VI" URL="../Resport Generation/RPT_Convert Waveform.vi"/>
@@ -259,7 +264,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E0426743-73BA-485D-8581-D7F25D83307B}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">_OLS_Main_Q02.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/PWC-OLS/NI_AB_PROJECTNAME.exe</Property>
@@ -274,10 +279,10 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/PWC-OLS/$ReportFiles</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">$Calibration</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/PWC-OLS/$Calibrtation</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/PWC-OLS/$Calibration</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DAD7526C-0F0D-4792-8EC5-8CE8269EBF85}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{508F789C-4B96-4FA5-8CF9-7773229D25AA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_OLS_Main_Q02.vi</Property>
@@ -286,26 +291,27 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/$Calibrtation</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/$ConfigFiles</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/$ConfigFiles</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/$ReportFiles</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/$ReportFiles</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/$Calibration</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Allen Aircraft Products Inc</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">PWC-OLS</Property>
 				<Property Name="TgtF_internalName" Type="Str">PWC-OLS</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Allen Aircraft Products Inc</Property>
